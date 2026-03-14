@@ -1,0 +1,21 @@
+Parts List
+
+Full Bridge Rectifier
+Diodes:
+	1N4007
+	https://www.digikey.ca/en/products/detail/diotec-semiconductor/1N4007/18833652
+	
+Switchers:
+	LM2596
+	https://www.ti.com/lit/ds/symlink/lm2596.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771916443069
+	
+	LM5023
+	https://www.ti.com/lit/ds/symlink/lm5023.pdf?ts=1773452437705
+	
+	UC3845BD1
+	https://www.digikey.ca/en/products/detail/stmicroelectronics/UC3845BD1/1852681
+	
+Flyback Transformers:
+	Primary 120V ~ 375V
+	Auxiliary 15V @ 10mA
+	https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/7508110331/26752767
