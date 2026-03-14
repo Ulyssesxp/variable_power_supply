@@ -1,0 +1,7 @@
+Parts List
+
+Full Bridge Rectifier
+Diodes:
+	1N4007
+	https://www.digikey.ca/en/products/detail/diotec-semiconductor/1N4007/18833652
+	
