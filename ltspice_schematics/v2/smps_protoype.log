@@ -1,0 +1,7 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net
+Start Time: Tue Mar 17 21:40:00 2026
+C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net(9): This sub-circuit cannot be instantiated because it contains syntax errors. It is found in file "C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\7508110331_Wurth_Electronics_Midcom.lib".
+
+X§U1 N003 NC_01 0 NC_02 NC_03 N004 0 7508110331_Linear ;§pnba 3)4)5)2)1)6)9
+                                     ^^^^^^^^^^^^^^^^^
