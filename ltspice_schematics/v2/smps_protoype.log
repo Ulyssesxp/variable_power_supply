@@ -1,7 +1,27 @@
-LTspice 26.0.1 for Windows
-Circuit: C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net
-Start Time: Tue Mar 17 21:40:00 2026
-C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net(9): This sub-circuit cannot be instantiated because it contains syntax errors. It is found in file "C:\Users\Jerma\Desktop\stuff\school\projects\variable_power_supply\ltspice_schematics\v2\7508110331_Wurth_Electronics_Midcom.lib".
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\temuu\Desktop\Projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net
+Start Time: Tue Mar 17 22:12:13 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+C:\Users\temuu\Desktop\Projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net(8): Limiting rise time to 3.84e-07.
 
-X§U1 N003 NC_01 0 NC_02 NC_03 N004 0 7508110331_Linear ;§pnba 3)4)5)2)1)6)9
-                                     ^^^^^^^^^^^^^^^^^
+V2 N003 0 PULSE(170 0 0 0 0 3.85e-6 7.69e-6) Rser=0.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\temuu\Desktop\Projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net(8): Limiting fall time to 3.84e-07.
+
+V2 N003 0 PULSE(170 0 0 0 0 3.85e-6 7.69e-6) Rser=0.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+WARNING: Node n006 is floating.
+WARNING: Node nc_03 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 3.700 seconds.
+
+Files loaded:
+C:\Users\temuu\Desktop\Projects\variable_power_supply\ltspice_schematics\v2\smps_protoype.net
+C:\Users\temuu\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\temuu\Desktop\Projects\variable_power_supply\ltspice_schematics\v2\7508110331_Wurth_Electronics_Midcom.lib
+
