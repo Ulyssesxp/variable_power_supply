@@ -9,11 +9,8 @@ Switchers:
 	LM2596
 	https://www.ti.com/lit/ds/symlink/lm2596.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771916443069
 	
-	LM5023
-	https://www.ti.com/lit/ds/symlink/lm5023.pdf?ts=1773452437705
-	
-	UC3845BD1
-	https://www.digikey.ca/en/products/detail/stmicroelectronics/UC3845BD1/1852681
+	UCC28910D ###
+	https://www.digikey.ca/en/products/detail/texas-instruments/UCC28910D/4840657
 	
 Flyback Transformers:
 	Primary 120V ~ 375V
