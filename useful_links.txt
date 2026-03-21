@@ -1,1 +1,2 @@
-Nothing for now...
+Textbook:
+https://www.onsemi.com/pub/collateral/smpsrm-d.pdf
