@@ -11,7 +11,12 @@ Switchers:
 	
 	UCC28910D ###
 	https://www.digikey.ca/en/products/detail/texas-instruments/UCC28910D/4840657
-	
+	auto adjusts frequency and doesnt need optocoupler feedback
+
+	UCC28C45DR
+	https://www.digikey.ca/en/products/detail/texas-instruments/UCC28C45DR/1911863
+	needs optocoupler feedback
+
 Flyback Transformers:
 	Primary 120V ~ 375V
 	Auxiliary 15V @ 10mA

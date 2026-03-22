@@ -1,0 +1,27 @@
+* SPICE Model for Wurth Electronics Midcom 7508110331
+* Flyback Transformer
+*
+* NOTE: The original vendor-supplied file was an LTspice encrypted model
+* that could not be loaded (likely a version incompatibility with LTspice 24+).
+* This is an approximate unencrypted replacement using coupled inductors.
+*
+* Pin order (SpiceOrder):
+*   1=pin3 (Primary+), 2=pin4 (Primary CT), 3=pin5 (Primary-),
+*   4=pin2 (Auxiliary-), 5=pin1 (Auxiliary+),
+*   6=pin6 (Secondary+), 7=pin9 (Secondary-)
+*
+* Primary inductance: ~340uH total (split at center tap)
+* Auxiliary inductance: ~14uH
+* Secondary inductance: ~60uH
+* Turns ratio Primary:Secondary ~2.4:1, Primary:Auxiliary ~4.9:1
+* Coupling coefficient: 0.998
+*
+* Replace Lp1/Lp2/La/Ls values with datasheet measurements for accurate results.
+*
+.SUBCKT 7508110331_Linear p3 p4 p5 p2 p1 p6 p9
+Lp1 p3 p4 170u
+Lp2 p4 p5 170u
+La  p1 p2  14u
+Ls  p6 p9  60u
+K1 Lp1 Lp2 La Ls 0.998
+.ENDS 7508110331_Linear
