@@ -1,2 +1,5 @@
 Textbook:
 https://www.onsemi.com/pub/collateral/smpsrm-d.pdf
+
+Reference Design:
+https://www.ti.com/lit/df/sluram5/sluram5.pdf?ts=1774369700739
